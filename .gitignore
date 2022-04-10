@@ -1,0 +1,4 @@
+test/
+.idea/
+list_utils/print_list.c
+function_utils/ft_itoa.c
