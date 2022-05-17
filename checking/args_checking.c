@@ -36,25 +36,6 @@ static void	check_if_int(int ac, char **av, int check)
 	}
 }
 
-static void	check_duplicates(int ac, char **av, int check)
-{
-	int	j;
-
-	while (--ac)
-	{
-		if (!check)
-			j = 0;
-		else
-			j = 1;
-		while (j < ac)
-		{
-			if (ft_strcmp(av[ac], av[j]) == 0)
-				error_exit();
-			j++;
-		}
-	}
-}
-
 static void	check_if_empty(int ac, char **av, int check)
 {
 	int	i;
@@ -75,5 +56,4 @@ void	check_args(int ac, char **av, int check)
 {
 	check_if_empty(ac, av, check);
 	check_if_int(ac, av, check);
-	check_duplicates(ac, av, check);
 }

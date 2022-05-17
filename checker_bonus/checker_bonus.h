@@ -37,7 +37,7 @@ int		ft_strlen(const char *s);
 char	*ft_strdup(const char *s1);
 char	*ft_strchr(const char *s, int c);
 char	**ft_split(char const *s, char c);
-void	parse_av(t_node **a_head, char **av, char ***args);
+int		parse_av(t_node **a_head, char **av, char ***args);
 
 t_node	*create_node(int data);
 void	init_stack_a(t_node **a_head, int ac, char **av, int check);

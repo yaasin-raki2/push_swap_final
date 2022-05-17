@@ -15,6 +15,7 @@
 
 # include <unistd.h>
 # include <stdlib.h>
+# include <stdio.h>
 
 typedef struct s_node
 {
@@ -54,7 +55,7 @@ int		ft_atoi(const char *str);
 int		ft_strcmp(char *s1, char *s2);
 char	*ft_strchr(const char *s, int c);
 char	**ft_split(char const *s, char c);
-void	parse_av(t_node **a_head, char **av, char ***args);
+int		parse_av(t_node **a_head, char **av, char ***args);
 
 void	error_exit(void);
 void	init_i(t_i *i);

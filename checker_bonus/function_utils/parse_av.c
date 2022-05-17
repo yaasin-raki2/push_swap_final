@@ -12,12 +12,10 @@
 
 #include "../checker_bonus.h"
 
-void	parse_av(t_node **a_head, char **av, char ***args)
+int	parse_av(t_node **a_head, char **av, char ***args)
 {
-	int		i;
 	int		len;
 
-	i = 0;
 	len = 0;
 	*args = ft_split(av[1], ' ');
 	if (*args == NULL)
@@ -26,4 +24,5 @@ void	parse_av(t_node **a_head, char **av, char ***args)
 		len++;
 	check_args(len, *args, 0);
 	init_stack_a(a_head, len, *args, 0);
+	return (len);
 }

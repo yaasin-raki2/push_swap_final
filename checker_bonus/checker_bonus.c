@@ -90,7 +90,7 @@ int	main(int ac, char **av)
 	b_head = NULL;
 	args = NULL;
 	if (ac == 2 && ft_strchr(av[1], ' ') != NULL)
-		parse_av(&a_head, av, &args);
+		ac = parse_av(&a_head, av, &args) + 1;
 	else
 	{
 		check_args(ac, av, 1);

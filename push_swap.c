@@ -6,7 +6,7 @@
 /*   By: yerraqui <yerraqui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/04 17:54:41 by yerraqui          #+#    #+#             */
-/*   Updated: 2022/04/04 17:54:41 by yerraqui         ###   ########.fr       */
+/*   Updated: 2022/05/16 13:53:52 by yerraqui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,12 +48,12 @@ int	main(int ac, char **av)
 	b_head = NULL;
 	args = NULL;
 	if (ac == 2 && ft_strchr(av[1], ' ') != NULL)
-		parse_av(&a_head, av, &args);
+		ac = parse_av(&a_head, av, &args) + 1;
 	else
 	{
 		check_args(ac, av, 1);
 		if (ac <= 2)
-			exit(0);
+			return (0);
 		init_stack_a(&a_head, ac, av, 1);
 	}
 	if (check_sorted_stack(a_head) == 0)
