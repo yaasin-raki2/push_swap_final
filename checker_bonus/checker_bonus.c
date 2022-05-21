@@ -80,6 +80,23 @@ static void	read_instructions(t_node **a, t_node **b)
 		free_and_exit(1, &inst, &p);
 }
 
+void	check_first_param_spaces(const char *str)
+{
+	int	i;
+	int	n;
+
+
+	i = -1;
+	n = 0;
+	while (str[++i])
+	{
+		if (str[i] == ' ')
+			n++;
+	}
+	if (n == i)
+		error_exit();
+}
+
 int	main(int ac, char **av)
 {
 	t_node	*a_head;
@@ -89,6 +106,8 @@ int	main(int ac, char **av)
 	a_head = NULL;
 	b_head = NULL;
 	args = NULL;
+	if (ac > 1)
+		check_first_param_spaces(av[1]);
 	if (ac == 2 && ft_strchr(av[1], ' ') != NULL)
 		ac = parse_av(&a_head, av, &args) + 1;
 	else

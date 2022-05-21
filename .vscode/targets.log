@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `push_swap.o', needed by `push_swap'.  Stop.
 
 
-# Make data base, printed on Mon May 16 13:43:43 2022
+# Make data base, printed on Fri May 20 11:33:29 2022
 
 # Variables
 
@@ -29,7 +29,7 @@ VSCODE_LOG_NATIVE = false
 # makefile (from `Makefile', line 12)
 BONUS_OBJS = $(BONUS_SRCS:.c=.o)
 # makefile
-CURDIR := /Users/yerraqui/Desktop/push_swap_final
+CURDIR := /Users/yerraqui/Desktop/push_swap
 # makefile
 SHELL = /bin/sh
 # makefile (from `Makefile', line 18)
@@ -51,13 +51,13 @@ VSCODE_VERBOSE_LOGGING = true
 # makefile (from `Makefile', line 6)
 OBJS = $(SRCS:.c=.o)
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/zz/zyxvpxvq6csfxvn_n0000hym00047n/T/vscode-ipc-385edb88-df5d-49b3-9cbe-c2f246ac3bed.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/zz/zyxvpxvq6csfxvn_n0000hym00047n/T/vscode-ipc-c794bc49-91c3-4791-9539-4b730798ea13.sock
 # environment
 VSCODE_CWD = /
 # environment
-Apple_PubSub_Socket_Render = /private/tmp/com.apple.launchd.ddFDdoe2qj/Render
+Apple_PubSub_Socket_Render = /private/tmp/com.apple.launchd.jxoSPLikzy/Render
 # environment
-PATH = /Users/yerraqui/sdk/go1.18/bin/:/Users/yerraqui/Library/Python/3.9/lib/python/site-packages:/Users/yerraqui/goinfre/brew/Library/Taps/louisbrunner/homebrew-valgrind:/Users/yerraqui/.brew/bin:/Users/yerraqui/goinfre/brew/bin:/Users/yerraqui/goinfre/brew:/opt/homebrew/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Users/yerraqui/.scripts:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/yerraqui/.scripts
+PATH = /Users/yerraqui/sdk/go1.18/bin/:/Users/yerraqui/Library/Python/3.9/lib/python/site-packages:/Users/yerraqui/goinfre/brew/Library/Taps/louisbrunner/homebrew-valgrind:/Users/yerraqui/.brew/bin:/Users/yerraqui/goinfre/brew/bin:/Users/yerraqui/goinfre/brew:/opt/homebrew/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Users/yerraqui/.scripts:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Users/yerraqui/.scripts
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
@@ -67,7 +67,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.z0lB1EaMhd/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.sw5v7Qwkf1/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -77,7 +77,7 @@ BONUS_SRCS = checker_bonus/checker_bonus.c checker_bonus/checking/args_checking.
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /Users/yerraqui/Desktop/push_swap_final
+PWD = /Users/yerraqui/Desktop/push_swap
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
@@ -141,7 +141,7 @@ MFLAGS = -Rrqp
 # makefile (from `Makefile', line 8)
 BONUS_NAME = checker
 # environment
-XPC_SERVICE_NAME = com.microsoft.VSCode.1228
+XPC_SERVICE_NAME = com.microsoft.VSCode.1212
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -169,7 +169,7 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 55160
+VSCODE_PID = 68011
 # variable set hash-table stats:
 # Load=78/1024=8%, Rehash=0, Collisions=7/108=6%
 
@@ -179,9 +179,9 @@ VSCODE_PID = 55160
 
 # Directories
 
-# . (device 16777227, inode 3066109): 16 files, no impossibilities.
+# . (device 16777227, inode 3144168): 18 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 18 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -194,7 +194,6 @@ list_utils/init_i.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
 
 # Not a target:
 list_utils/free_list.o:
@@ -257,6 +256,7 @@ all: push_swap
 checker_bonus/list_utils/create_node.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 
 .PHONY: all clean fclean re test bonus
@@ -315,7 +315,7 @@ sorting/sort_three.o:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-15 11:10:57
+#  Last modified 2022-05-20 11:31:57
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -466,7 +466,6 @@ list_utils/push_side.o:
 
 # Not a target:
 list_utils/last_node_index.o:
- 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -518,9 +517,10 @@ push_swap.o:
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
+ 
 push_swap: push_swap.o sorting/sort_six_plus.o sorting/sort_five.o sorting/sort_four.o sorting/sort_three.o instructions/swap.o instructions/push.o instructions/rotate.o instructions/reverse_rotate.o instructions/check_instructions.o function_utils/ft_atoi.o function_utils/ft_strcmp.o function_utils/error_exit.o function_utils/ft_strchr.o function_utils/ft_split.o function_utils/parse_av.o list_utils/add_to_back.o list_utils/create_node.o list_utils/last_node.o list_utils/free_list.o list_utils/before_last_node.o list_utils/index_stack.o list_utils/find_smallest_index.o list_utils/list_size.o list_utils/index_of_node.o list_utils/push_side.o list_utils/last_node_index.o list_utils/search_for_index.o list_utils/init_i.o list_utils/init_stack_a.o checking/args_checking.o checking/stack_checking.o
 #  Implicit rule search has not been done.
-#  Last modified 2022-05-15 11:17:29
+#  Last modified 2022-05-20 11:32:05
 #  File has not been updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
@@ -625,6 +625,6 @@ list_utils/last_node.o:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon May 16 13:43:43 2022
+# Finished Make data base on Fri May 20 11:33:29 2022
 
  
