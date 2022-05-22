@@ -80,7 +80,7 @@ static void	read_instructions(t_node **a, t_node **b)
 		free_and_exit(1, &inst, &p);
 }
 
-void	check_first_param_spaces(const char *str)
+static  void	check_first_param_spaces(const char *str)
 {
 	int	i;
 	int	n;
@@ -97,15 +97,28 @@ void	check_first_param_spaces(const char *str)
 		error_exit();
 }
 
+//t_node	**init_stacks_arr(t_node **a_head , t_node  **b_head)
+//{
+//	t_node **stacks_arr;
+//
+//	stacks_arr = (t_node **)malloc((sizeof(t_node *) * 2) + 1);
+//	stacks_arr[0] = *a_head;
+//	stacks_arr[1] = *b_head;
+//	stacks_arr[2] = NULL;
+//	return stacks_arr;
+//}
+
 int	main(int ac, char **av)
 {
 	t_node	*a_head;
 	t_node	*b_head;
 	char	**args;
+//	t_node **stacks_arr;
 
 	a_head = NULL;
 	b_head = NULL;
 	args = NULL;
+//	stacks_arr = init_stacks_arr(&a_head, &b_head);
 	if (ac > 1)
 		check_first_param_spaces(av[1]);
 	if (ac == 2 && ft_strchr(av[1], ' ') != NULL)
