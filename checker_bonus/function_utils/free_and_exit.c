@@ -12,10 +12,12 @@
 
 #include "../checker_bonus.h"
 
-void	free_and_exit(int x, char **inst, char **p)
+void	free_and_exit(int x, char **inst, char **p, int ac)
 {
 	free(*inst);
 	free(*p);
+	if (ac == 2)
+		error_exit();
 	if (x == 0)
 		write(1, "OK\n", 3);
 	else if (x == 1)

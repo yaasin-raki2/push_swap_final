@@ -25,7 +25,7 @@ typedef struct s_node
 }	t_node;
 
 void	error_exit(void);
-void	free_and_exit(int x, char **inst, char **p);
+void	free_and_exit(int x, char **inst, char **p, int ac);
 
 void	check_args(int ac, char **av, int check);
 int		check_sorted_stack(t_node *list);

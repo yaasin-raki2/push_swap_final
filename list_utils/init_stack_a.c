@@ -42,7 +42,7 @@ void	init_stack_a(t_node **a_head, int ac, char **av, int check)
 		i = 0;
 	while (++i < ac)
 	{
-		if ((!check && i == -1) || (check == 1 && i == 0))
+		if ((!check && i == 0) || (check == 1 && i == 1))
 			*a_head = create_node(ft_atoi(av[i]));
 		else
 		{
