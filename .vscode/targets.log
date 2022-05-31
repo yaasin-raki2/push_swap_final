@@ -10,7 +10,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `push_swap.o', needed by `push_swap'.  Stop.
 
 
-# Make data base, printed on Fri May 20 11:33:29 2022
+# Make data base, printed on Tue May 31 11:03:04 2022
 
 # Variables
 
@@ -45,17 +45,17 @@ CFLAGS = -Wall -Werror -Wextra
 # makefile (from `Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # makefile (from `Makefile', line 4)
-SRCS = push_swap.c sorting/sort_six_plus.c sorting/sort_five.c sorting/sort_four.c sorting/sort_three.c instructions/swap.c instructions/push.c instructions/rotate.c instructions/reverse_rotate.c instructions/check_instructions.c function_utils/ft_atoi.c function_utils/ft_strcmp.c function_utils/error_exit.c function_utils/ft_strchr.c function_utils/ft_split.c function_utils/parse_av.c list_utils/add_to_back.c list_utils/create_node.c list_utils/last_node.c list_utils/free_list.c list_utils/before_last_node.c list_utils/index_stack.c list_utils/find_smallest_index.c list_utils/list_size.c list_utils/index_of_node.c list_utils/push_side.c list_utils/last_node_index.c list_utils/search_for_index.c list_utils/init_i.c list_utils/init_stack_a.c checking/args_checking.c checking/stack_checking.c
+SRCS = push_swap.c sorting/sort_six_plus.c sorting/sort_five.c sorting/sort_four.c sorting/sort_three.c instructions/swap.c instructions/push.c instructions/rotate.c instructions/reverse_rotate.c instructions/check_instructions.c function_utils/ft_atoi.c function_utils/ft_strcmp.c function_utils/error_exit.c function_utils/ft_strchr.c function_utils/ft_split.c function_utils/parse_av.c list_utils/add_to_back.c list_utils/create_node.c list_utils/last_node.c list_utils/free_list.c list_utils/before_last_node.c list_utils/index_stack.c list_utils/find_smallest_index.c list_utils/list_size.c list_utils/index_of_node.c list_utils/push_side.c list_utils/last_node_index.c list_utils/search_for_index.c list_utils/init_i.c list_utils/init_stack_a.c checking/args_checking.c checking/stack_checking.c 
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # makefile (from `Makefile', line 6)
 OBJS = $(SRCS:.c=.o)
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/zz/zyxvpxvq6csfxvn_n0000hym00047n/T/vscode-ipc-c794bc49-91c3-4791-9539-4b730798ea13.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/zz/zyxvpxvq6csfxvn_n0000hym00047n/T/vscode-ipc-406e7baf-c7aa-42be-98de-1831bd968c96.sock
 # environment
 VSCODE_CWD = /
 # environment
-Apple_PubSub_Socket_Render = /private/tmp/com.apple.launchd.jxoSPLikzy/Render
+Apple_PubSub_Socket_Render = /private/tmp/com.apple.launchd.8K6jU23pAC/Render
 # environment
 PATH = /Users/yerraqui/sdk/go1.18/bin/:/Users/yerraqui/Library/Python/3.9/lib/python/site-packages:/Users/yerraqui/goinfre/brew/Library/Taps/louisbrunner/homebrew-valgrind:/Users/yerraqui/.brew/bin:/Users/yerraqui/goinfre/brew/bin:/Users/yerraqui/goinfre/brew:/opt/homebrew/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Users/yerraqui/.scripts:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/munki:/Users/yerraqui/.scripts
 # environment
@@ -67,13 +67,13 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.sw5v7Qwkf1/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Ju9HRDoeEe/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
 HOMEBREW_TEMP = /tmp/yerraqui/Homebrew/Temp
 # makefile (from `Makefile', line 10)
-BONUS_SRCS = checker_bonus/checker_bonus.c checker_bonus/checking/args_checking.c checker_bonus/checking/stack_checking.c checker_bonus/list_utils/create_node.c checker_bonus/list_utils/init_stack_a.c checker_bonus/list_utils/add_to_back.c checker_bonus/list_utils/before_last_node.c checker_bonus/list_utils/last_node.c checker_bonus/function_utils/error_exit.c checker_bonus/function_utils/free_and_exit.c checker_bonus/function_utils/ft_strcmp.c checker_bonus/function_utils/ft_atoi.c checker_bonus/function_utils/ft_strlen.c checker_bonus/function_utils/ft_strjoin.c checker_bonus/function_utils/ft_strdup.c checker_bonus/function_utils/ft_strchr.c checker_bonus/function_utils/ft_split.c checker_bonus/function_utils/parse_av.c checker_bonus/instructions/swap.c checker_bonus/instructions/push.c checker_bonus/instructions/rotate.c checker_bonus/instructions/reverse_rotate.c 
+BONUS_SRCS = checker_bonus/checker_bonus.c checker_bonus/checking/args_checking.c checker_bonus/checking/stack_checking.c checker_bonus/list_utils/create_node.c checker_bonus/list_utils/init_stack_a.c checker_bonus/list_utils/add_to_back.c checker_bonus/list_utils/before_last_node.c checker_bonus/list_utils/last_node.c checker_bonus/function_utils/error_exit.c checker_bonus/function_utils/free_and_exit.c checker_bonus/function_utils/ft_strcmp.c checker_bonus/function_utils/ft_atoi.c checker_bonus/function_utils/ft_strlen.c checker_bonus/function_utils/ft_strjoin.c checker_bonus/function_utils/ft_strdup.c checker_bonus/function_utils/ft_strchr.c checker_bonus/function_utils/ft_split.c checker_bonus/function_utils/parse_av.c checker_bonus/instructions/swap.c checker_bonus/instructions/push.c checker_bonus/instructions/rotate.c checker_bonus/instructions/reverse_rotate.c checker_bonus/function_utils/init_stack_arr.c
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -81,17 +81,17 @@ PWD = /Users/yerraqui/Desktop/push_swap
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /Users/yerraqui
 # default
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
-VSCODE_CODE_CACHE_PATH = /Users/yerraqui/Library/Application Support/Code/CachedData/c3f126316369cd610563c75b1b1725e0679adfb3
+VSCODE_CODE_CACHE_PATH = /Users/yerraqui/Library/Application Support/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
 # environment
 LOGNAME = yerraqui
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 ZSH = /Users/yerraqui/.oh-my-zsh
 # environment
@@ -131,7 +131,7 @@ TMPDIR = /var/folders/zz/zyxvpxvq6csfxvn_n0000hym00047n/T/
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /Users/yerraqui/Library/Application Support/Code/1.58.2-main.sock
+VSCODE_IPC_HOOK = /Users/yerraqui/Library/Application Support/Code/1.66.2-main.sock
 # makefile
 MAKEFLAGS = Rrqp
 # environment
@@ -141,7 +141,7 @@ MFLAGS = -Rrqp
 # makefile (from `Makefile', line 8)
 BONUS_NAME = checker
 # environment
-XPC_SERVICE_NAME = com.microsoft.VSCode.1212
+XPC_SERVICE_NAME = com.microsoft.VSCode.6432
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
@@ -150,8 +150,6 @@ XPC_SERVICE_NAME = com.microsoft.VSCode.1212
 __CF_USER_TEXT_ENCODING = 0x10F5:0x0:0x0
 # default
 MAKEFILES := 
-# environment
-VSCODE_BROWSER_CODE_LOADING = bypassHeatCheck
 # automatic
 <F = $(notdir $<)
 # environment
@@ -169,9 +167,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 68011
+VSCODE_PID = 9693
 # variable set hash-table stats:
-# Load=78/1024=8%, Rehash=0, Collisions=7/108=6%
+# Load=77/1024=8%, Rehash=0, Collisions=7/107=7%
 
 # Pattern-specific Variable Values
 
@@ -179,9 +177,9 @@ VSCODE_PID = 68011
 
 # Directories
 
-# . (device 16777227, inode 3144168): 18 files, no impossibilities.
+# . (device 16777227, inode 3144168): 17 files, no impossibilities.
 
-# 18 files, no impossibilities in 1 directories.
+# 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -256,9 +254,9 @@ all: push_swap
 checker_bonus/list_utils/create_node.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 
+ 
 .PHONY: all clean fclean re test bonus
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -278,6 +276,12 @@ instructions/swap.o:
 
 # Not a target:
 instructions/reverse_rotate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+checker_bonus/function_utils/init_stack_arr.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -315,7 +319,7 @@ sorting/sort_three.o:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-20 11:31:57
+#  Last modified 2022-05-31 10:58:39
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -332,7 +336,7 @@ test:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 30):
+#  commands to execute (from `Makefile', line 29):
 	./push_swap 14 45 48 34 40 26 1 5 20 0 25 32 12 9 49 36 18 41 33 4 50 30 39 13 21 19 43 31 22 7 44 11 35 23 42 28 2 15 8 24 17 37 46 27 10 3 47 16 6 38 29
 	
 
@@ -378,13 +382,13 @@ checking/args_checking.o:
 #  Modification time never checked.
 #  File has not been updated.
 
-bonus: checker_bonus/checker_bonus.o checker_bonus/checking/args_checking.o checker_bonus/checking/stack_checking.o checker_bonus/list_utils/create_node.o checker_bonus/list_utils/init_stack_a.o checker_bonus/list_utils/add_to_back.o checker_bonus/list_utils/before_last_node.o checker_bonus/list_utils/last_node.o checker_bonus/function_utils/error_exit.o checker_bonus/function_utils/free_and_exit.o checker_bonus/function_utils/ft_strcmp.o checker_bonus/function_utils/ft_atoi.o checker_bonus/function_utils/ft_strlen.o checker_bonus/function_utils/ft_strjoin.o checker_bonus/function_utils/ft_strdup.o checker_bonus/function_utils/ft_strchr.o checker_bonus/function_utils/ft_split.o checker_bonus/function_utils/parse_av.o checker_bonus/instructions/swap.o checker_bonus/instructions/push.o checker_bonus/instructions/rotate.o checker_bonus/instructions/reverse_rotate.o
+bonus: checker_bonus/checker_bonus.o checker_bonus/checking/args_checking.o checker_bonus/checking/stack_checking.o checker_bonus/list_utils/create_node.o checker_bonus/list_utils/init_stack_a.o checker_bonus/list_utils/add_to_back.o checker_bonus/list_utils/before_last_node.o checker_bonus/list_utils/last_node.o checker_bonus/function_utils/error_exit.o checker_bonus/function_utils/free_and_exit.o checker_bonus/function_utils/ft_strcmp.o checker_bonus/function_utils/ft_atoi.o checker_bonus/function_utils/ft_strlen.o checker_bonus/function_utils/ft_strjoin.o checker_bonus/function_utils/ft_strdup.o checker_bonus/function_utils/ft_strchr.o checker_bonus/function_utils/ft_split.o checker_bonus/function_utils/parse_av.o checker_bonus/instructions/swap.o checker_bonus/instructions/push.o checker_bonus/instructions/rotate.o checker_bonus/instructions/reverse_rotate.o checker_bonus/function_utils/init_stack_arr.o
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 33):
-	$(CC) $(CFLAGS) $(BONUS_OBJS) -o $(BONUS_NAME) -I ./checker_bonus/. -fsanitize=address
+#  commands to execute (from `Makefile', line 32):
+	$(CC) $(CFLAGS) $(BONUS_OBJS) -o $(BONUS_NAME) -I ./checker_bonus/.  -fsanitize=address -static-libsan
 	
 
 # Not a target:
@@ -398,7 +402,7 @@ checker_bonus/list_utils/init_stack_a.o:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 26):
-	$(CC) $(CFLAGS) -c $< -o $(<:.c=.o) -I. 
+	$(CC) $(CFLAGS) -c $< -o $(<:.c=.o) -I.  -fsanitize=address -static-libsan
 	
 
 fclean: clean
@@ -406,7 +410,7 @@ fclean: clean
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 39):
+#  commands to execute (from `Makefile', line 38):
 	$(RM) $(NAME) $(BONUS_NAME)
 	
 
@@ -499,7 +503,7 @@ clean:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  commands to execute (from `Makefile', line 36):
+#  commands to execute (from `Makefile', line 35):
 	$(RM) $(OBJS) $(BONUS_OBJS)
 	
 
@@ -520,12 +524,12 @@ push_swap.o:
  
 push_swap: push_swap.o sorting/sort_six_plus.o sorting/sort_five.o sorting/sort_four.o sorting/sort_three.o instructions/swap.o instructions/push.o instructions/rotate.o instructions/reverse_rotate.o instructions/check_instructions.o function_utils/ft_atoi.o function_utils/ft_strcmp.o function_utils/error_exit.o function_utils/ft_strchr.o function_utils/ft_split.o function_utils/parse_av.o list_utils/add_to_back.o list_utils/create_node.o list_utils/last_node.o list_utils/free_list.o list_utils/before_last_node.o list_utils/index_stack.o list_utils/find_smallest_index.o list_utils/list_size.o list_utils/index_of_node.o list_utils/push_side.o list_utils/last_node_index.o list_utils/search_for_index.o list_utils/init_i.o list_utils/init_stack_a.o checking/args_checking.o checking/stack_checking.o
 #  Implicit rule search has not been done.
-#  Last modified 2022-05-20 11:32:05
+#  File does not exist.
 #  File has not been updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 #  commands to execute (from `Makefile', line 23):
-	$(CC) $(CFLAGS) $(OBJS) -o $(NAME) -I.
+	$(CC) $(CFLAGS) $(OBJS) -o $(NAME) -I. -fsanitize=address -static-libsan
 	
 
 # Not a target:
@@ -613,7 +617,7 @@ list_utils/last_node.o:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=66/1024=6%, Rehash=0, Collisions=4/143=3%
+# Load=67/1024=7%, Rehash=0, Collisions=4/145=3%
 # VPATH Search Paths
 
 # No `vpath' search paths.
@@ -625,6 +629,6 @@ list_utils/last_node.o:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Fri May 20 11:33:29 2022
+# Finished Make data base on Tue May 31 11:03:04 2022
 
  

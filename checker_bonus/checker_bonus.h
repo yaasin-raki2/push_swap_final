@@ -6,7 +6,7 @@
 /*   By: yerraqui <yerraqui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/04 17:51:48 by yerraqui          #+#    #+#             */
-/*   Updated: 2022/04/04 17:51:48 by yerraqui         ###   ########.fr       */
+/*   Updated: 2022/05/31 07:26:37 by yerraqui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,6 +38,7 @@ char	*ft_strdup(const char *s1);
 char	*ft_strchr(const char *s, int c);
 char	**ft_split(char const *s, char c);
 int		parse_av(t_node **a_head, char **av, char ***args);
+t_node	***init_stacks_arr(t_node **a_head, t_node **b_head);
 
 t_node	*create_node(int data);
 void	init_stack_a(t_node **a_head, int ac, char **av, int check);

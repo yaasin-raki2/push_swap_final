@@ -6,7 +6,7 @@
 /*   By: yerraqui <yerraqui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/04 17:51:36 by yerraqui          #+#    #+#             */
-/*   Updated: 2022/05/16 13:58:24 by yerraqui         ###   ########.fr       */
+/*   Updated: 2022/05/31 07:37:59 by yerraqui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,15 @@
 
 static void	check_dup_m(t_node **a_head)
 {
-	t_node *tmp;
-	t_node *tmp2;
-	
+	t_node	*tmp;
+	t_node	*tmp2;
+
 	tmp = *a_head;
 	while (tmp->next != NULL)
 	{
 		tmp2 = tmp->next;
 		while (tmp2 != NULL)
-		{
-			
+		{			
 			if (tmp->data == tmp2->data)
 				error_exit();
 			tmp2 = tmp2->next;

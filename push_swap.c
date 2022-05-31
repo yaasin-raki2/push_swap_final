@@ -6,7 +6,7 @@
 /*   By: yerraqui <yerraqui@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/04 17:54:41 by yerraqui          #+#    #+#             */
-/*   Updated: 2022/05/16 13:53:52 by yerraqui         ###   ########.fr       */
+/*   Updated: 2022/05/31 11:04:35 by yerraqui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,11 +38,10 @@ static void	sort_stack(int nums, t_node **a_head, t_node **b_head)
 	write_previous_instruction(&i);
 }
 
-void	check_first_param_spaces(const char *str)
+static void	check_first_param_spaces(const char *str)
 {
 	int	i;
 	int	n;
-
 
 	i = -1;
 	n = 0;
