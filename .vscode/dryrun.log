@@ -1,42 +1,41 @@
-make --dry-run --keep-going --print-directory
+make --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/yerraqui/Desktop/push_swap'
-cc -Wall -Werror -Wextra -c push_swap.c -o push_swap.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c sorting/sort_six_plus.c -o sorting/sort_six_plus.o -I.  -fsanitize=address -static-libsan
+cc -Wall -Werror -Wextra -c push_swap.c -o push_swap.o -I.
  
-cc -Wall -Werror -Wextra -c sorting/sort_five.c -o sorting/sort_five.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c sorting/sort_four.c -o sorting/sort_four.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c sorting/sort_three.c -o sorting/sort_three.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c instructions/swap.c -o instructions/swap.o -I.  -fsanitize=address -static-libsan
+cc -Wall -Werror -Wextra -c sorting/sort_six_plus.c -o sorting/sort_six_plus.o -I.
+cc -Wall -Werror -Wextra -c sorting/sort_five.c -o sorting/sort_five.o -I.
+cc -Wall -Werror -Wextra -c sorting/sort_four.c -o sorting/sort_four.o -I.
+cc -Wall -Werror -Wextra -c sorting/sort_three.c -o sorting/sort_three.o -I.
+cc -Wall -Werror -Wextra -c instructions/swap.c -o instructions/swap.o -I.
+cc -Wall -Werror -Wextra -c instructions/push.c -o instructions/push.o -I.
+cc -Wall -Werror -Wextra -c instructions/rotate.c -o instructions/rotate.o -I.
+cc -Wall -Werror -Wextra -c instructions/reverse_rotate.c -o instructions/reverse_rotate.o -I.
+cc -Wall -Werror -Wextra -c instructions/check_instructions.c -o instructions/check_instructions.o -I.
+cc -Wall -Werror -Wextra -c function_utils/ft_atoi.c -o function_utils/ft_atoi.o -I.
+cc -Wall -Werror -Wextra -c function_utils/ft_strcmp.c -o function_utils/ft_strcmp.o -I.
+cc -Wall -Werror -Wextra -c function_utils/error_exit.c -o function_utils/error_exit.o -I.
  
-cc -Wall -Werror -Wextra -c instructions/push.c -o instructions/push.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c instructions/rotate.c -o instructions/rotate.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c instructions/reverse_rotate.c -o instructions/reverse_rotate.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c instructions/check_instructions.c -o instructions/check_instructions.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c function_utils/ft_atoi.c -o function_utils/ft_atoi.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c function_utils/ft_strcmp.c -o function_utils/ft_strcmp.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c function_utils/error_exit.c -o function_utils/error_exit.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c function_utils/ft_strchr.c -o function_utils/ft_strchr.o -I.  -fsanitize=address -static-libsan
+cc -Wall -Werror -Wextra -c function_utils/ft_strchr.c -o function_utils/ft_strchr.o -I.
+cc -Wall -Werror -Wextra -c function_utils/ft_split.c -o function_utils/ft_split.o -I.
+cc -Wall -Werror -Wextra -c function_utils/parse_av.c -o function_utils/parse_av.o -I.
+cc -Wall -Werror -Wextra -c list_utils/add_to_back.c -o list_utils/add_to_back.o -I.
+cc -Wall -Werror -Wextra -c list_utils/create_node.c -o list_utils/create_node.o -I.
+cc -Wall -Werror -Wextra -c list_utils/last_node.c -o list_utils/last_node.o -I.
+cc -Wall -Werror -Wextra -c list_utils/free_list.c -o list_utils/free_list.o -I.
+cc -Wall -Werror -Wextra -c list_utils/before_last_node.c -o list_utils/before_last_node.o -I.
+cc -Wall -Werror -Wextra -c list_utils/index_stack.c -o list_utils/index_stack.o -I.
+cc -Wall -Werror -Wextra -c list_utils/find_smallest_index.c -o list_utils/find_smallest_index.o -I.
+cc -Wall -Werror -Wextra -c list_utils/list_size.c -o list_utils/list_size.o -I.
+cc -Wall -Werror -Wextra -c list_utils/index_of_node.c -o list_utils/index_of_node.o -I.
+cc -Wall -Werror -Wextra -c list_utils/push_side.c -o list_utils/push_side.o -I.
+cc -Wall -Werror -Wextra -c list_utils/last_node_index.c -o list_utils/last_node_index.o -I.
  
-cc -Wall -Werror -Wextra -c function_utils/ft_split.c -o function_utils/ft_split.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c function_utils/parse_av.c -o function_utils/parse_av.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c list_utils/add_to_back.c -o list_utils/add_to_back.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c list_utils/create_node.c -o list_utils/create_node.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c list_utils/last_node.c -o list_utils/last_node.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c list_utils/free_list.c -o list_utils/free_list.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c list_utils/before_last_node.c -o list_utils/before_last_node.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c list_utils/index_stack.c -o list_utils/index_stack.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c list_utils/find_smallest_index.c -o list_utils/find_smallest_index.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c list_utils/list_size.c -o list_utils/list_size.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c list_utils/index_of_node.c -o list_utils/index_of_node.o -I.  -fsanitize=address -static-libsan
+cc -Wall -Werror -Wextra -c list_utils/search_for_index.c -o list_utils/search_for_index.o -I.
+cc -Wall -Werror -Wextra -c list_utils/init_i.c -o list_utils/init_i.o -I.
+cc -Wall -Werror -Wextra -c list_utils/init_stack_a.c -o list_utils/init_stack_a.o -I.
  
-cc -Wall -Werror -Wextra -c list_utils/push_side.c -o list_utils/push_side.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c list_utils/last_node_index.c -o list_utils/last_node_index.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c list_utils/search_for_index.c -o list_utils/search_for_index.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c list_utils/init_i.c -o list_utils/init_i.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c list_utils/init_stack_a.c -o list_utils/init_stack_a.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra -c checking/args_checking.c -o checking/args_checking.o -I.  -fsanitize=address -static-libsan
- 
-cc -Wall -Werror -Wextra -c checking/stack_checking.c -o checking/stack_checking.o -I.  -fsanitize=address -static-libsan
-cc -Wall -Werror -Wextra push_swap.o sorting/sort_six_plus.o sorting/sort_five.o sorting/sort_four.o sorting/sort_three.o instructions/swap.o instructions/push.o instructions/rotate.o instructions/reverse_rotate.o instructions/check_instructions.o function_utils/ft_atoi.o function_utils/ft_strcmp.o function_utils/error_exit.o function_utils/ft_strchr.o function_utils/ft_split.o function_utils/parse_av.o list_utils/add_to_back.o list_utils/create_node.o list_utils/last_node.o list_utils/free_list.o list_utils/before_last_node.o list_utils/index_stack.o list_utils/find_smallest_index.o list_utils/list_size.o list_utils/index_of_node.o list_utils/push_side.o list_utils/last_node_index.o list_utils/search_for_index.o list_utils/init_i.o list_utils/init_stack_a.o checking/args_checking.o checking/stack_checking.o -o push_swap -I. -fsanitize=address -static-libsan
+cc -Wall -Werror -Wextra -c checking/args_checking.c -o checking/args_checking.o -I.
+cc -Wall -Werror -Wextra -c checking/stack_checking.c -o checking/stack_checking.o -I.
+cc -Wall -Werror -Wextra push_swap.o sorting/sort_six_plus.o sorting/sort_five.o sorting/sort_four.o sorting/sort_three.o instructions/swap.o instructions/push.o instructions/rotate.o instructions/reverse_rotate.o instructions/check_instructions.o function_utils/ft_atoi.o function_utils/ft_strcmp.o function_utils/error_exit.o function_utils/ft_strchr.o function_utils/ft_split.o function_utils/parse_av.o list_utils/add_to_back.o list_utils/create_node.o list_utils/last_node.o list_utils/free_list.o list_utils/before_last_node.o list_utils/index_stack.o list_utils/find_smallest_index.o list_utils/list_size.o list_utils/index_of_node.o list_utils/push_side.o list_utils/last_node_index.o list_utils/search_for_index.o list_utils/init_i.o list_utils/init_stack_a.o checking/args_checking.o checking/stack_checking.o -o push_swap -I.
 make: Leaving directory `/Users/yerraqui/Desktop/push_swap'
  
